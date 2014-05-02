@@ -46,7 +46,7 @@ int main()
 void eratosthenes(int workspace[], int length)
 {
     // If the length is zero, don't do anything.
-    if( (length = 0) )
+    if(length == 0)
     {
         return;
     }
