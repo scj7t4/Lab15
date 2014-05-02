@@ -95,7 +95,7 @@ void repack_array(int workspace[], int length)
 void print_array(int workspace[], int length)
 {
     int i = 0; // A counter for us to use.
-    while( i < length && workspace[i] != 0 );
+    while( i < length && workspace[i] != 0 )
     {
         cout << workspace[i] << ",";
         i++;
