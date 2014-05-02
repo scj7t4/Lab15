@@ -39,7 +39,7 @@ int main()
 {
     int pary[256];
     eratosthenes(pary,256);
-    print_array(pary, 1024);
+    print_array(pary, 16);
 }
 
 
